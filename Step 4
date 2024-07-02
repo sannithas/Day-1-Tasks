@@ -1,0 +1,25 @@
+public class SwapNumbers {
+    // Method to swap two numbers
+    public void swap(int num1, int num2) {
+        System.out.println("Before swapping: num1 = " + num1 + ", num2 = " + num2);
+
+        // Swapping logic
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+
+        System.out.println("After swapping: num1 = " + num1 + ", num2 = " + num2);
+    }
+
+    public static void main(String[] args) {
+        // Creating an object of SwapNumbers class
+        SwapNumbers swapNumbers = new SwapNumbers();
+
+        // Example numbers to swap
+        int number1 = 10;
+        int number2 = 20;
+
+        // Calling the swap method
+        swapNumbers.swap(number1, number2);
+    }
+}
