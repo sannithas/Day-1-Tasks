@@ -1,0 +1,6 @@
+Explain what a class is in Java.
+  A class in Java defines the variables and functions that the object will contain and be able to perform.
+Describe what an object is in Java.
+  A object in Java holds specific data and can perform functions defined in the class. It essentially creates values assigned to the attributes in each class.
+Outline the differences between a class and an object in Java.
+  The difference is the class is a templete for creating objects that defines the data and behavior that the objects will have. The object is an instance of a class that contains actual data and can perform operations defined in the class.
